@@ -1,0 +1,11 @@
+# text = ሰውነቷ ሁሉ ጆሮ ሆነ ።
+# sent_id = TAFS1.0_B1.0_s7
+1-2	ሰውነቷ	_	_	_	_	_	_	_	_
+1	ሰውነ፟ት	ሰውነ፟ት	NOUN	NOUN	_	5	nsubj	_	_
+2	ዋ	ዋ	PRON	POSM	Gender=Fem|Number=Sing|Person=3|Poss=Yes	1	nmod	_	_
+3	ሁሉ፟	ሁሉ፟	ADJ	ADJ	_	1	amod	_	_
+4	ጆሮ	ጆሮ	NOUN	NOUN	_	5	xcomp	_	_
+5-6	ሆነ	_	_	_	_	_	_	_	_
+5	ሆን	ሆነ	VERB	VERB	Aspect=Perf	0	root	_	_
+6	ኧ	ኧ	PRON	SUBJ	Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+7	።	።	PUNCT	PUNCT	_	5	punct	_	_
