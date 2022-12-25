@@ -1,0 +1,722 @@
+# text = ሁለቱ ማስተርሳቸውን እየሰሩ ነው ያሉት ።
+# sent_id = CACO_3-7w_B1_50s_s1
+1-2	ሁለቱ	_	_	_	_	_	_	_	_
+1	ሁለት	ሁለት፟	NOUN	NOUN	_	_	_	_	_
+2	ኡ	ኡ	DET	DET	_	1	det	_	_
+3	ማስተርሳቸውን	ማስተርሳቸውን	UNK	UNK	_	_	_	_	_
+4-6	እየሰሩ	_	_	_	_	_	_	_	_
+4	እየ	እየ	SCONJ	SCONJ	_	5	mark	_	_
+5	ሰራ	ሰራ	VERB	VERB	Aspect=Perf	_	_	_	_
+6	ኡ	ኡ	PRON	SUBJ	Number=Plur|Person=3	5	nsubj	_	_
+7-8	ነው	_	_	_	_	_	_	_	_
+7	ነ	ነ	AUX	AUX	Tense=Pres	_	_	_	_
+8	ው	ው	PRON	SUBC	Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+9-12	ያሉት	_	_	_	_	_	_	_	_
+9	የ	የ	PART	RLP	_	10	mark	_	_
+10	አለ	አለ	VERB	VERB	Tense=Pres	_	_	_	_
+11	ኡ	ኡ	PRON	SUBC	Number=Plur|Person=3	10	nsubj	_	_
+12	ት	ው	PRON	OBJC	Gender=Masc|Number=Sing|Person=3	10	obj	_	_
+13	።	።	PUNCT	PUNCT	_	_	_	_	_
+
+# text = ድሬዳዋና ጅማ በጨረታ ሂደት ላይ ነው ።
+# sent_id = CACO_3-7w_B1_50s_s2
+1-2	ድሬዳዋና	_	_	_	_	_	_	_	_
+1	ድሬዳዋ	ድሬዳዋ	PROPN	PROPN	_	_	_	_	_
+2	ና	ና	CCONJ	CCONJ	_	1	cc	_	_
+3	ጅማ	ጅማ፟	PROPN	PROPN	_	_	_	_	_
+4-5	በጨረታ	_	_	_	_	_	_	_	_
+4	በ	በ	ADP	ADP	_	5	case	_	_
+5	ጨረታ	ጨረታ	NOUN	NOUN	_	_	_	_	_
+6	ሂደት	ሂደት	NOUN	NOUN	_	_	_	_	_
+7	ላይ	ላይ	ADP	ADP	_	_	_	_	_
+8-9	ነው	_	_	_	_	_	_	_	_
+8	ነ	ነ	AUX	AUX	Tense=Pres	_	_	_	_
+9	ው	ው	PRON	SUBC	Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
+10	።	።	PUNCT	PUNCT	_	_	_	_	_
+
+# text = የስነተፈጥሮ ጉዳይ ነው ።
+# sent_id = CACO_3-7w_B1_50s_s3
+1	የስነተፈጥሮ	የስነተፈጥሮ	UNK	UNK	_	_	_	_	_
+2	ጉዳይ	ጉዳ፟ይ	NOUN	NOUN	_	_	_	_	_
+3-4	ነው	_	_	_	_	_	_	_	_
+3	ነ	ነ	AUX	AUX	Tense=Pres	_	_	_	_
+4	ው	ው	PRON	SUBC	Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+5	።	።	PUNCT	PUNCT	_	_	_	_	_
+
+# text = ግን እንዳትጣሉ ።
+# sent_id = CACO_3-7w_B1_50s_s4
+1	ግን	ግን	CCONJ	CCONJ	_	_	_	_	_
+2-5	እንዳትጣሉ	_	_	_	_	_	_	_	_
+2	እንድ	እንድ	SCONJ	SCONJ	_	4	mark	_	_
+3	ኣት	ኣል	PART	PART	Person=2|Polarity=Neg	4	advmod	_	_
+4	ጣላ	ጠላ	VERB	VERB	Aspect=Imp|Voice=Rcp	_	_	_	_
+5	ኡ	ኡ	PRON	SUBJ	Number=Plur|Person=2,3	4	nsubj	_	_
+6	።	።	PUNCT	PUNCT	_	_	_	_	_
+
+# text = ይኼ ለማንም አይበጅም ።
+# sent_id = CACO_3-7w_B1_50s_s5
+1	ይኼ	ይህ	NOUN	NOUN	_	_	_	_	_
+2-4	ለማንም	_	_	_	_	_	_	_	_
+2	ለ	ለ	ADP	ADP	_	3	case	_	_
+3	ማን	ማን	NOUN	NOUN	_	_	_	_	_
+4	ም	ም	CCONJ	CCONJ	_	3	cc	_	_
+5-7	አይበጅም	_	_	_	_	_	_	_	_
+5	ኣይ	ኣል	PART	PART	Person=3|Polarity=Neg	6	advmod	_	_
+6	በጅ	በጀ	VERB	VERB	Aspect=Imp	_	_	_	_
+7	ም	ም	PART	NCM	Polarity=Neg	6	discourse	_	_
+8	።	።	PUNCT	PUNCT	_	_	_	_	_
+
+# text = ከአገር መጥፋት አለበት ።
+# sent_id = CACO_3-7w_B1_50s_s6
+1-2	ከአገር	_	_	_	_	_	_	_	_
+1	ከ	ከ	ADP	ADP	Case=Loc	2	case	_	_
+2	አገር	ሃገር	NOUN	NOUN	_	_	_	_	_
+3	መጥፋት	ጠፋ	NOUN	INF	_	_	_	_	_
+4-7	አለበት	_	_	_	_	_	_	_	_
+4	አለ	አለ	VERB	VERB	Tense=Pres	_	_	_	_
+5	ኧ	ኧ	PRON	SUBJ	Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+6	ብ	ብ	ADP	ADP	Case=Mal	4	case	_	_
+7	ኧት	ኧት	PRON	OBJC	Gender=Masc|Number=Sing|Person=3	4	expl	_	_
+8	።	።	PUNCT	PUNCT	_	_	_	_	_
+
+# text = ለውጡም መጣ ።
+# sent_id = CACO_3-7w_B1_50s_s7
+1-3	ለውጡም	_	_	_	_	_	_	_	_
+1	ለውጥ	ለውጥ	NOUN	NOUN	_	_	_	_	_
+2	ኡ	ኡ	DET	DET	_	1	det	_	_
+3	ም	ም	CCONJ	CCONJ	_	1	cc	_	_
+4-5	መጣ	_	_	_	_	_	_	_	_
+4	መጣ	መጣ	VERB	VERB	Aspect=Perf	_	_	_	_
+5	ኧ	ኧ	PRON	SUBJ	Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+6	።	።	PUNCT	PUNCT	_	_	_	_	_
+
+# text = ሁሉም ተማሪዎች እጃቸውን አወጡ ።
+# sent_id = CACO_3-7w_B1_50s_s8
+1-2	ሁሉም	_	_	_	_	_	_	_	_
+1	ሁሉ	ሁሉ፟	ADJ	ADJ	_	_	_	_	_
+2	ም	ም	CCONJ	CCONJ	_	1	cc	_	_
+3	ተማሪዎች	ተማረ	NOUN	NOUN	Number=Plur	_	_	_	_
+4-6	እጃቸውን	_	_	_	_	_	_	_	_
+4	እጅ	እጅ፟	NOUN	NOUN	_	_	_	_	_
+5	ኣቸው	ኣቸው	PRON	POSM	Number=Plur|Person=3|Poss=Yes	4	nmod	_	_
+6	ን	ን	PART	ACC	Case=Acc	4	case	_	_
+7-8	አወጡ	_	_	_	_	_	_	_	_
+7	አወጣ	ወጣ	VERB	VERB	Aspect=Perf|Voice=Trans	_	_	_	_
+8	ኡ	ኡ	PRON	SUBJ	Number=Plur|Person=3	7	nsubj	_	_
+9	።	።	PUNCT	PUNCT	_	_	_	_	_
+
+# text = ወያላው ነገር ይፈትላል ።
+# sent_id = CACO_3-7w_B1_50s_s9
+1-2	ወያላው	_	_	_	_	_	_	_	_
+1	ወያላ	ወያ፟ላ	NOUN	NOUN	_	_	_	_	_
+2	ኡ	ኡ	DET	DET	_	1	det	_	_
+3	ነገር	ነገር	NOUN	NOUN	_	_	_	_	_
+4-6	ይፈትላል	_	_	_	_	_	_	_	_
+4	ይ	ይ	PRON	PRON	Person=3	5	nsubj	_	_
+5	ፈትል	ፈተለ	VERB	VERB	Aspect=Imp	_	_	_	_
+6	ኣል	ኣል	AUX	AUX	_	5	aux	_	_
+7	።	።	PUNCT	PUNCT	_	_	_	_	_
+
+# text = የጲጥፋራ ሚስት ልትበቀለው ፈለገች ።
+# sent_id = CACO_3-7w_B1_50s_s10
+1	የጲጥፋራ	የጲጥፋራ	UNK	UNK	_	_	_	_	_
+2	ሚስት	ሚስት	NOUN	NOUN	_	_	_	_	_
+3-6	ልትበቀለው	_	_	_	_	_	_	_	_
+3	ል	ል	SCONJ	SCONJ	_	5	mark	_	_
+4	ት	ት	PRON	PRON	Gender=Fem|Number=Sing|Person=3	5	nsubj	_	_
+5	በቀል	በቀለ	VERB	VERB	Aspect=Imp|Voice=Pass	_	_	_	_
+6	ኧው	ው	PRON	OBJC	Gender=Masc|Number=Sing|Person=3	5	obj	_	_
+7-8	ፈለገች	_	_	_	_	_	_	_	_
+7	ፈለግ	ፈለገ	VERB	VERB	Aspect=Perf	_	_	_	_
+8	ኧች	ኧች	PRON	SUBJ	Gender=Fem|Number=Sing|Person=3	7	nsubj	_	_
+9	።	።	PUNCT	PUNCT	_	_	_	_	_
+
+# text = ይህስ ለአገልጋዮቹ ምን ጥቅም ያስገኛል ?
+# sent_id = CACO_3-7w_B1_50s_s11
+1-2	ይህስ	_	_	_	_	_	_	_	_
+1	ይህ	ይህ	NOUN	NOUN	_	_	_	_	_
+2	ስ	ስ	CCONJ	CCONJ	_	1	cc	_	_
+3-5	ለአገልጋዮቹ	_	_	_	_	_	_	_	_
+3	ለ	ለ	ADP	ADP	_	4	case	_	_
+4	አገልጋዮች	አገልጋዮች	NADJ	NADJ	Number=Plur	_	_	_	_
+5	ኡ	ኡ	DET	DET	_	4	det	_	_
+6	ምን	ምን	NOUN	NOUN	_	_	_	_	_
+7	ጥቅም	ጥቅም	NOUN	NOUN	_	_	_	_	_
+8-10	ያስገኛል	_	_	_	_	_	_	_	_
+8	ይ	ይ	PRON	PRON	Person=3	9	nsubj	_	_
+9	አስገኝ	አገኘ	VERB	VERB	Aspect=Imp|Voice=Cau	_	_	_	_
+10	ኣል	ኣል	AUX	AUX	_	9	aux	_	_
+11	?	?	PUNCT	PUNCT	_	_	_	_	_
+
+# text = መኪናዋ እንደ ጥይት ወደፊት ተተኮሰች ።
+# sent_id = CACO_3-7w_B1_50s_s12
+1-2	መኪናዋ	_	_	_	_	_	_	_	_
+1	መኪና	መኪና	NOUN	NOUN	_	_	_	_	_
+2	ዋ	ዋ	DET	DET	Gender=Fem	1	det	_	_
+3	እንደ	እንደ	ADP	ADP	_	_	_	_	_
+4	ጥይት	ጥይ፟ት	NOUN	NOUN	_	_	_	_	_
+5-6	ወደፊት	_	_	_	_	_	_	_	_
+5	ወደ	ወደ	ADP	ADP	Case=Loc	6	case	_	_
+6	ፊት	ፊት	NOUN	NOUN	_	_	_	_	_
+7-8	ተተኮሰች	_	_	_	_	_	_	_	_
+7	ተተኰስ	ተኮሰ	VERB	VERB	Aspect=Perf|Voice=Pass	_	_	_	_
+8	ኧች	ኧች	PRON	SUBJ	Gender=Fem|Number=Sing|Person=3	7	nsubj	_	_
+9	።	።	PUNCT	PUNCT	_	_	_	_	_
+
+# text = ግን ተስፋው ትልቅ ነበር ።
+# sent_id = CACO_3-7w_B1_50s_s13
+1	ግን	ግን	CCONJ	CCONJ	_	_	_	_	_
+2-3	ተስፋው	_	_	_	_	_	_	_	_
+2	ተስፋ	ተስፋ	NOUN	NOUN	_	_	_	_	_
+3	ኡ	ኡ	PRON	POSM	Gender=Masc|Number=Sing|Person=3|Poss=Yes	2	nmod	_	_
+4	ትልቅ	ትል፟ቅ	ADJ	ADJ	_	_	_	_	_
+5	ነበር	ነበ፟ር	AUX	AUX	_	_	_	_	_
+6	።	።	PUNCT	PUNCT	_	_	_	_	_
+
+# text = ጉልበተኝነት ወይንም ጀግንነት ።
+# sent_id = CACO_3-7w_B1_50s_s14
+1	ጉልበተኝነት	ጉልበተኝነት	UNK	UNK	_	_	_	_	_
+2	ወይንም	ወይንም	CCONJ	CCONJ	_	_	_	_	_
+3	ጀግንነት	ጀግንነ፟ት	NOUN	NOUN	_	_	_	_	_
+4	።	።	PUNCT	PUNCT	_	_	_	_	_
+
+# text = ነገሌም ገባን ።
+# sent_id = CACO_3-7w_B1_50s_s15
+1-2	ነገሌም	_	_	_	_	_	_	_	_
+1	ነገሌ	ነገሌ	PROPN	PROPN	_	_	_	_	_
+2	ም	ም	CCONJ	CCONJ	_	1	cc	_	_
+3-4	ገባን	_	_	_	_	_	_	_	_
+3	ገባ	ገባ	VERB	VERB	Aspect=Perf	_	_	_	_
+4	ን	ን	PRON	SUBJ	Number=Plur|Person=1	3	nsubj	_	_
+5	።	።	PUNCT	PUNCT	_	_	_	_	_
+
+# text = የሚገርም ዲኮር በመስራቷ አድናቆትን አተረፈች ።
+# sent_id = CACO_3-7w_B1_50s_s16
+1-4	የሚገርም	_	_	_	_	_	_	_	_
+1	የ	የ	PART	RLP	_	4	mark	_	_
+2	እም	እም	PART	IRLP	_	4	mark	_	_
+3	ይ	ይ	PRON	PRON	Person=3	4	nsubj	_	_
+4	ገርም	ገረመ	VERB	VERB	Aspect=Imp	_	_	_	_
+5	ዲኮር	ዲኮር	UNK	UNK	_	_	_	_	_
+6-8	በመስራቷ	_	_	_	_	_	_	_	_
+6	በ	በ	ADP	ADP	_	7	case	_	_
+7	መስራት	ሰራ	NOUN	INF	_	_	_	_	_
+8	ዋ	ዋ	PRON	POSM	Gender=Fem|Number=Sing|Person=3|Poss=Yes	7	nmod	_	_
+9-10	አድናቆትን	_	_	_	_	_	_	_	_
+9	አድናቆት	አድናቆት	NOUN	NOUN	_	_	_	_	_
+10	ን	ን	PART	ACC	Case=Acc	9	case	_	_
+11-12	አተረፈች	_	_	_	_	_	_	_	_
+11	አተረፍ	ተረፈ	VERB	VERB	Aspect=Perf|Voice=Trans	_	_	_	_
+12	ኧች	ኧች	PRON	SUBJ	Gender=Fem|Number=Sing|Person=3	11	nsubj	_	_
+13	።	።	PUNCT	PUNCT	_	_	_	_	_
+
+# text = እጁን ሰደደ ።
+# sent_id = CACO_3-7w_B1_50s_s17
+1-3	እጁን	_	_	_	_	_	_	_	_
+1	እጅ	እጅ፟	NOUN	NOUN	_	_	_	_	_
+2	ኡ	ኡ	PRON	POSM	Gender=Masc|Number=Sing|Person=3|Poss=Yes	1	nmod	_	_
+3	ን	ን	PART	ACC	Case=Acc	1	case	_	_
+4-5	ሰደደ	_	_	_	_	_	_	_	_
+4	ሰደድ	ሰደደ	VERB	VERB	Aspect=Perf	_	_	_	_
+5	ኧ	ኧ	PRON	SUBJ	Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+6	።	።	PUNCT	PUNCT	_	_	_	_	_
+
+# text = የሥጋ ደዌ ምን እንደሆነ ታውቃለህ ?
+# sent_id = CACO_3-7w_B1_50s_s18
+1-2	የሥጋ	_	_	_	_	_	_	_	_
+1	የ	የ	ADP	ADP	Case=Gen	2	case	_	_
+2	ሥጋ	ስጋ	NOUN	NOUN	_	_	_	_	_
+3	ደዌ	ደዌ	NOUN	NOUN	_	_	_	_	_
+4	ምን	ምን	NOUN	NOUN	_	_	_	_	_
+5-7	እንደሆነ	_	_	_	_	_	_	_	_
+5	እንደ	እንደ	SCONJ	SCONJ	_	6	mark	_	_
+6	ሆን	ሆነ	VERB	VERB	Aspect=Perf	_	_	_	_
+7	ኧ	ኧ	PRON	SUBJ	Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+8-11	ታውቃለህ	_	_	_	_	_	_	_	_
+8	ት	ት	PRON	PRON	Person=2	9	nsubj	_	_
+9	አውቅ	አወቀ	VERB	VERB	Aspect=Imp	_	_	_	_
+10	ኣል	ኣል	AUX	AUX	_	9	aux	_	_
+11	ኧህ	ህ	PRON	SUBJC	Gender=Masc|Number=Sing|Person=2	9	nsubj	_	_
+12	?	?	PUNCT	PUNCT	_	_	_	_	_
+
+# text = በአንድ ወቅት ነው አሉ ።
+# sent_id = CACO_3-7w_B1_50s_s19
+1-2	በአንድ	_	_	_	_	_	_	_	_
+1	በ	በ	ADP	ADP	_	2	case	_	_
+2	አንድ	አንድ	ADJ	ADJ	_	_	_	_	_
+3	ወቅት	ወቅት	NOUN	NOUN	_	_	_	_	_
+4-5	ነው	_	_	_	_	_	_	_	_
+4	ነ	ነ	AUX	AUX	Tense=Pres	_	_	_	_
+5	ው	ው	PRON	SUBC	Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+6-7	አሉ	_	_	_	_	_	_	_	_
+6	አል	አለ	VERB	VERB	Aspect=Perf	_	_	_	_
+7	ኡ	ኡ	PRON	SUBJ	Number=Plur|Person=3	6	nsubj	_	_
+8	።	።	PUNCT	PUNCT	_	_	_	_	_
+
+# text = ይህ ራሱን የቻለ ራስ ምታት ነው ።
+# sent_id = CACO_3-7w_B1_50s_s20
+1	ይህ	ይህ	NOUN	NOUN	_	_	_	_	_
+2-4	ራሱን	_	_	_	_	_	_	_	_
+2	ራስ	ራስ	NOUN	NOUN	_	_	_	_	_
+3	ኡ	ኡ	PRON	POSM	Gender=Masc|Number=Sing|Person=3|Poss=Yes	2	nmod	_	_
+4	ን	ን	PART	ACC	Case=Acc	2	case	_	_
+5-7	የቻለ	_	_	_	_	_	_	_	_
+5	የ	የ	PART	RLP	_	6	mark	_	_
+6	ቻል	ቻለ	VERB	VERB	Aspect=Perf	_	_	_	_
+7	ኧ	ኧ	PRON	SUBJ	Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+8-9	ራስ ምታት	_	_	_	_	_	_	_	_
+8	ራስ	ራስ	NOUN	NOUN	_	9	compound	_	_
+9	ምታት	ምታት	NOUN	NOUN	_	_	_	_	_
+10-11	ነው	_	_	_	_	_	_	_	_
+10	ነ	ነ	AUX	AUX	Tense=Pres	_	_	_	_
+11	ው	ው	PRON	SUBC	Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
+12	።	።	PUNCT	PUNCT	_	_	_	_	_
+
+# text = ኢህአዴግ ለዚህ ተጠያቂ ነው ።
+# sent_id = CACO_3-7w_B1_50s_s21
+1	ኢህአዴግ	ኢህአዴግ	PROPN	PROPN	_	_	_	_	_
+2-3	ለዚህ	_	_	_	_	_	_	_	_
+2	ለ	ለ	ADP	ADP	_	3	case	_	_
+3	ይህ	ይህ	NOUN	NOUN	_	_	_	_	_
+4	ተጠያቂ	ተጠያ፟ቂ	ADJ	ADJ	_	_	_	_	_
+5-6	ነው	_	_	_	_	_	_	_	_
+5	ነ	ነ	AUX	AUX	Tense=Pres	_	_	_	_
+6	ው	ው	PRON	SUBC	Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+7	።	።	PUNCT	PUNCT	_	_	_	_	_
+
+# text = ቅዳሴ ይሰማል ።
+# sent_id = CACO_3-7w_B1_50s_s22
+1	ቅዳሴ	ቅዳ፟ሴ	NOUN	NOUN	_	_	_	_	_
+2-4	ይሰማል	_	_	_	_	_	_	_	_
+2	ይ	ይ	PRON	PRON	Person=3	3	nsubj	_	_
+3	ሰማ	ሰማ	VERB	VERB	Aspect=Imp|Voice=Pass	_	_	_	_
+4	ኣል	ኣል	AUX	AUX	_	3	aux	_	_
+5	።	።	PUNCT	PUNCT	_	_	_	_	_
+
+# text = ደግና ሰውን አክባሪ ።
+# sent_id = CACO_3-7w_B1_50s_s23
+1-2	ደግና	_	_	_	_	_	_	_	_
+1	ደግ	ደግ፟	ADJ	ADJ	_	_	_	_	_
+2	ና	ና	CCONJ	CCONJ	_	1	cc	_	_
+3-4	ሰውን	_	_	_	_	_	_	_	_
+3	ሰው	ሰው	NOUN	NOUN	_	_	_	_	_
+4	ን	ን	PART	ACC	Case=Acc	3	case	_	_
+5	አክባሪ	አከበረ	NOUN	NOUN	_	_	_	_	_
+6	።	።	PUNCT	PUNCT	_	_	_	_	_
+
+# text = እናንተም የራሳችሁን ድርሻ ተወጡ ።
+# sent_id = CACO_3-7w_B1_50s_s24
+1-2	እናንተም	_	_	_	_	_	_	_	_
+1	እናንተ	እና፟ንተ	PRON	PRON	_	_	_	_	_
+2	ም	ም	CCONJ	CCONJ	_	1	cc	_	_
+3-6	የራሳችሁን	_	_	_	_	_	_	_	_
+3	የ	የ	ADP	ADP	Case=Gen	4	case	_	_
+4	ራስ	ራስ	NOUN	NOUN	_	_	_	_	_
+5	ኣችሁ	ኣችሁ	PRON	POSM	Number=Plur|Person=2|Poss=Yes	4	nmod	_	_
+6	ን	ን	PART	ACC	Case=Acc	4	case	_	_
+7	ድርሻ	ድርሻ	NOUN	NOUN	_	_	_	_	_
+8-9	ተወጡ	_	_	_	_	_	_	_	_
+8	ተወጣ	ተወጣ	VERB	VERB	Mood=Jus	_	_	_	_
+9	ኡ	ኡ	PRON	SUBJ	Number=Plur|Person=2,3	8	nsubj	_	_
+10	።	።	PUNCT	PUNCT	_	_	_	_	_
+
+# text = ከዚያ በኋላ ደግሞ አዋጁ የሚያሠራ አይደለም ።
+# sent_id = CACO_3-7w_B1_50s_s25
+1-2	ከዚያ	_	_	_	_	_	_	_	_
+1	ከ	ከ	ADP	ADP	Case=Loc	2	case	_	_
+2	ያ	ያ	NOUN	NOUN	_	_	_	_	_
+3	በኋላ	በኋላ	ADV	ADV	_	_	_	_	_
+4-5	ደግሞ	_	_	_	_	_	_	_	_
+4	ደግም	ደገመ	VERB	VERB	Verbform=Conv	_	_	_	_
+5	ኦ	ኦ	PRON	SUBJ	Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+6-7	አዋጁ	_	_	_	_	_	_	_	_
+6	አዋጅ	አዋጅ	NOUN	NOUN	_	_	_	_	_
+7	ኡ	ኡ	DET	DET	_	6	det	_	_
+8-11	የሚያሠራ	_	_	_	_	_	_	_	_
+8	የ	የ	PART	RLP	_	11	mark	_	_
+9	እም	እም	PART	IRLP	_	11	mark	_	_
+10	ይ	ይ	PRON	PRON	Person=3	11	nsubj	_	_
+11	አሠራ	ሰራ	VERB	VERB	Aspect=Imp|Voice=Cau	_	_	_	_
+12-14	አይደለም	_	_	_	_	_	_	_	_
+12	አይደለ	ኣይደል	AUX	AUX	Polarity=Neg|Tense=Pres	_	_	_	_
+13	ኧ	ኧ	PRON	SUBC	Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
+14	ም	ም	PART	NCM	Polarity=Neg	12	discourse	_	_
+15	።	።	PUNCT	PUNCT	_	_	_	_	_
+
+# text = በመተወንህ ምን ተሰማህ ?
+# sent_id = CACO_3-7w_B1_50s_s26
+1	በመተወንህ	በመተወንህ	UNK	UNK	_	_	_	_	_
+2	ምን	ምን	NOUN	NOUN	_	_	_	_	_
+3-4	ተሰማህ	_	_	_	_	_	_	_	_
+3	ተሰማ	ተሰማ	VERB	VERB	Mood=Jus	_	_	_	_
+4	ህ	ህ	PRON	OBJC	Gender=Masc|Number=Sing|Person=2	3	obj	_	_
+5	?	?	PUNCT	PUNCT	_	_	_	_	_
+
+# text = ግን እርግጠኛ ነኝ ሚኒስትሯ ስለመናገራቸው ።
+# sent_id = CACO_3-7w_B1_50s_s27
+1	ግን	ግን	CCONJ	CCONJ	_	_	_	_	_
+2	እርግጠኛ	እርግጠኛ፟	ADJ	ADJ	_	_	_	_	_
+3-4	ነኝ	_	_	_	_	_	_	_	_
+3	ነ	ነ	AUX	AUX	Tense=Pres	_	_	_	_
+4	ኝ	ኝ	PRON	SUBC	Number=Sing|Person=1	3	nsubj	_	_
+5-6	ሚኒስትሯ	_	_	_	_	_	_	_	_
+5	ሚኒስትር	ሚኒስትር	NOUN	NOUN	_	_	_	_	_
+6	ዋ	ዋ	DET	DET	Gender=Fem	5	det	_	_
+7-9	ስለመናገራቸው	_	_	_	_	_	_	_	_
+7	ስለ	ስለ	ADP	ADP	_	8	case	_	_
+8	መናገር	ነገረ	NOUN	INF	Voice=Rcp	_	_	_	_
+9	ኣቸው	ኣቸው	PRON	POSM	Number=Plur|Person=3|Poss=Yes	8	nmod	_	_
+10	።	።	PUNCT	PUNCT	_	_	_	_	_
+
+# text = እኔ ተለውጬ እሷ ብትደነግጥ ይሻላል ?
+# sent_id = CACO_3-7w_B1_50s_s28
+1	እኔ	እኔ	PRON	PRON	_	_	_	_	_
+2-3	ተለውጬ	_	_	_	_	_	_	_	_
+2	ተለውጥ	ለወጠ	VERB	VERB	Verbform=Conv|Voice=Pass	_	_	_	_
+3	ኤ	ኤ	PRON	SUBJ	Number=Sing|Person=1	2	nsubj	_	_
+4	እሷ	እሷ፟	PRON	PRON	_	_	_	_	_
+5-7	ብትደነግጥ	_	_	_	_	_	_	_	_
+5	ብ	ብ	SCONJ	SCONJ	_	7	mark	_	_
+6	ት	ት	PRON	PRON	Gender=Fem|Number=Sing|Person=3	7	nsubj	_	_
+7	ደነግጥ	ደነገጠ	VERB	VERB	Aspect=Imp	_	_	_	_
+8-10	ይሻላል	_	_	_	_	_	_	_	_
+8	ይ	ይ	PRON	PRON	Person=3	9	nsubj	_	_
+9	ሻል	ተሻለ	VERB	VERB	Aspect=Imp	_	_	_	_
+10	ኣል	ኣል	AUX	AUX	_	9	aux	_	_
+11	?	?	PUNCT	PUNCT	_	_	_	_	_
+
+# text = ሁል ጊዜ የዳንስ ጓደኞቻቸውን ይቀይራሉ ።
+# sent_id = CACO_3-7w_B1_50s_s29
+1	ሁል	ሁል	UNK	UNK	_	_	_	_	_
+2	ጊዜ	ጊዜ	NOUN	NOUN	_	_	_	_	_
+3-6	የዳንስ	_	_	_	_	_	_	_	_
+3	የ	የ	ADP	ADP	Case=Gen	4	case	_	_
+4	እዳ	እዳ	NOUN	NOUN	_	_	_	_	_
+5	ን	ን	PART	ACC	Case=Acc	4	case	_	_
+6	ስ	ስ	CCONJ	CCONJ	_	4	cc	_	_
+7-9	ጓደኞቻቸውን	_	_	_	_	_	_	_	_
+7	ጓደኛዎች	ጓደ፟ኛ፟ዎች	NOUN	NOUN	Number=Plur	_	_	_	_
+8	ኣቸው	ኣቸው	PRON	POSM	Number=Plur|Person=3|Poss=Yes	7	nmod	_	_
+9	ን	ን	PART	ACC	Case=Acc	7	case	_	_
+10-13	ይቀይራሉ	_	_	_	_	_	_	_	_
+10	ይ	ይ	PRON	PRON	Person=3	11	nsubj	_	_
+11	ቀይር	ቀየረ	VERB	VERB	Aspect=Imp	_	_	_	_
+12	ኣል	ኣል	AUX	AUX	_	11	aux	_	_
+13	ኡ	ኡ	PRON	SUBJC	Number=Plur|Person=3	11	nsubj	_	_
+14	።	።	PUNCT	PUNCT	_	_	_	_	_
+
+# text = ይህን ሥራ መሥራት ይኖርብኛል ?
+# sent_id = CACO_3-7w_B1_50s_s30
+1-2	ይህን	_	_	_	_	_	_	_	_
+1	ይህ	ይህ	ADJ	ADJ	_	_	_	_	_
+2	ን	ን	PART	ACC	Case=Acc	1	case	_	_
+3	ሥራ	ስራ	NOUN	NOUN	_	_	_	_	_
+4	መሥራት	ሰራ	NOUN	INF	_	_	_	_	_
+5-9	ይኖርብኛል	_	_	_	_	_	_	_	_
+5	ይ	ይ	PRON	PRON	Person=3	6	nsubj	_	_
+6	ኖር	ኖረ	VERB	VERB	Aspect=Imp	_	_	_	_
+7	ብ	ብ	ADP	ADP	Case=Mal	6	case	_	_
+8	ኝ	ኝ	PRON	OBJC	Number=Sing|Person=1	6	expl	_	_
+9	ኣል	ኣል	AUX	AUX	_	6	aux	_	_
+10	?	?	PUNCT	PUNCT	_	_	_	_	_
+
+# text = ሥጋ ወጥ ።
+# sent_id = CACO_3-7w_B1_50s_s31
+1	ሥጋ	ስጋ	NOUN	NOUN	_	_	_	_	_
+2	ወጥ	ወጥ	NOUN	NOUN	_	_	_	_	_
+3	።	።	PUNCT	PUNCT	_	_	_	_	_
+
+# text = የሚጣፍጣችሁን እናንተ ታውቀላችሁ ።
+# sent_id = CACO_3-7w_B1_50s_s32
+1-6	የሚጣፍጣችሁን	_	_	_	_	_	_	_	_
+1	የ	የ	PART	RLP	_	4	mark	_	_
+2	እም	እም	PART	IRLP	_	4	mark	_	_
+3	ይ	ይ	PRON	PRON	Person=3	4	nsubj	_	_
+4	ጣፍጥ	ጣፈጠ	VERB	VERB	Aspect=Imp	_	_	_	_
+5	ኣችሁ	ኣችሁ	PRON	OBJC	Number=Plur|Person=2	4	obj	_	_
+6	ን	ን	PART	ACC	_	4	case	_	_
+7	እናንተ	እና፟ንተ	PRON	PRON	_	_	_	_	_
+8	ታውቀላችሁ	ታውቀላችሁ	UNK	UNK	_	_	_	_	_
+9	።	።	PUNCT	PUNCT	_	_	_	_	_
+
+# text = አሁንም እየሆነ ያለው እንደዛ ይመስለኛል ።
+# sent_id = CACO_3-7w_B1_50s_s33
+1	አሁንም	አሁንም	ADV	ADV	_	_	_	_	_
+2-4	እየሆነ	_	_	_	_	_	_	_	_
+2	እየ	እየ	SCONJ	SCONJ	_	3	mark	_	_
+3	ሆን	ሆነ	VERB	VERB	Aspect=Perf	_	_	_	_
+4	ኧ	ኧ	PRON	SUBJ	Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+5-8	ያለው	_	_	_	_	_	_	_	_
+5	የ	የ	PART	RLP	_	6	mark	_	_
+6	አል	አለ	VERB	VERB	Aspect=Perf	_	_	_	_
+7	ኧ	ኧ	PRON	SUBJ	Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+8	ው	ው	PRON	OBJC	Gender=Masc|Number=Sing|Person=3	6	obj	_	_
+9-10	እንደዛ	_	_	_	_	_	_	_	_
+9	እንደ	እንደ	ADP	ADP	_	10	case	_	_
+10	ያ	ያ	NOUN	NOUN	_	_	_	_	_
+11-14	ይመስለኛል	_	_	_	_	_	_	_	_
+11	ይ	ይ	PRON	PRON	Person=3	12	nsubj	_	_
+12	መስል	መሰለ	VERB	VERB	Aspect=Imp	_	_	_	_
+13	ኧኝ	ኝ	PRON	OBJC	Number=Sing|Person=1	12	obj	_	_
+14	ኣል	ኣል	AUX	AUX	_	12	aux	_	_
+15	።	።	PUNCT	PUNCT	_	_	_	_	_
+
+# text = ትኩረት ቁልፍ ነው ።
+# sent_id = CACO_3-7w_B1_50s_s34
+1	ትኩረት	ትኩረት	NOUN	NOUN	_	_	_	_	_
+2	ቁልፍ	ቁልፍ	NOUN	NOUN	_	_	_	_	_
+3-4	ነው	_	_	_	_	_	_	_	_
+3	ነ	ነ	AUX	AUX	Tense=Pres	_	_	_	_
+4	ው	ው	PRON	SUBC	Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+5	።	።	PUNCT	PUNCT	_	_	_	_	_
+
+# text = አይን ብርሃን ለማየት ይቸገራል ወይም ይፈራል ።
+# sent_id = CACO_3-7w_B1_50s_s35
+1	አይን	አይን	NOUN	NOUN	_	_	_	_	_
+2	ብርሃን	ብርሀን	NOUN	NOUN	_	_	_	_	_
+3-4	ለማየት	_	_	_	_	_	_	_	_
+3	ለ	ለ	ADP	ADP	_	4	case	_	_
+4	ማየት	አየ	NOUN	INF	_	_	_	_	_
+5-7	ይቸገራል	_	_	_	_	_	_	_	_
+5	ይ	ይ	PRON	PRON	Person=3	6	nsubj	_	_
+6	ቸገር	ቸገረ	VERB	VERB	Aspect=Imp|Voice=Pass	_	_	_	_
+7	ኣል	ኣል	AUX	AUX	_	6	aux	_	_
+8	ወይም	ወይም	CCONJ	CCONJ	_	_	_	_	_
+9-11	ይፈራል	_	_	_	_	_	_	_	_
+9	ይ	ይ	PRON	PRON	Person=3	10	nsubj	_	_
+10	ፈራ	ፈራ	VERB	VERB	Aspect=Imp	_	_	_	_
+11	ኣል	ኣል	AUX	AUX	_	10	aux	_	_
+12	።	።	PUNCT	PUNCT	_	_	_	_	_
+
+# text = መልካም ሴት ለባሏ ዘውድ ናት ይባላል ።
+# sent_id = CACO_3-7w_B1_50s_s36
+1	መልካም	መልካም	ADJ	ADJ	_	_	_	_	_
+2	ሴት	ሴት	NOUN	NOUN	_	_	_	_	_
+3-5	ለባሏ	_	_	_	_	_	_	_	_
+3	ለ	ለ	ADP	ADP	_	4	case	_	_
+4	በአል	በአል	NOUN	NOUN	_	_	_	_	_
+5	ዋ	ዋ	PRON	POSM	Gender=Fem|Number=Sing|Person=3|Poss=Yes	4	nmod	_	_
+6	ዘውድ	ዘውድ	NOUN	NOUN	_	_	_	_	_
+7-8	ናት	_	_	_	_	_	_	_	_
+7	ነ	ነ	AUX	AUX	Tense=Pres	_	_	_	_
+8	አት	ኧች	PRON	SUBC	Gender=Fem|Number=Sing|Person=3	7	nsubj	_	_
+9-11	ይባላል	_	_	_	_	_	_	_	_
+9	ይ	ይ	PRON	PRON	Person=3	10	nsubj	_	_
+10	ባል	ተባለ	VERB	VERB	Aspect=Imp	_	_	_	_
+11	ኣል	ኣል	AUX	AUX	_	10	aux	_	_
+12	።	።	PUNCT	PUNCT	_	_	_	_	_
+
+# text = ሙሴም ያህዌ ባዘዘው መሠረት አደረገ ።
+# sent_id = CACO_3-7w_B1_50s_s37
+1-2	ሙሴም	_	_	_	_	_	_	_	_
+1	ሙሴ	ሙሴ	PROPN	PROPN	_	_	_	_	_
+2	ም	ም	CCONJ	CCONJ	_	1	cc	_	_
+3	ያህዌ	ያህዌ	PROPN	PROPN	_	_	_	_	_
+4-7	ባዘዘው	_	_	_	_	_	_	_	_
+4	በ	በ	ADP	ADP	_	5	mark	_	_
+5	አዘዝ	አዘዘ	VERB	VERB	Aspect=Perf	_	_	_	_
+6	ኧ	ኧ	PRON	SUBJ	Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+7	ው	ው	PRON	OBJC	Gender=Masc|Number=Sing|Person=3	5	obj	_	_
+8	መሠረት	መሰረት	ADP	ADP	_	_	_	_	_
+9-10	አደረገ	_	_	_	_	_	_	_	_
+9	አደረግ	አደረገ	VERB	VERB	Aspect=Perf	_	_	_	_
+10	ኧ	ኧ	PRON	SUBJ	Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
+11	።	።	PUNCT	PUNCT	_	_	_	_	_
+
+# text = ሌላ ብልት ለእንግዳው ወጣ ።
+# sent_id = CACO_3-7w_B1_50s_s38
+1	ሌላ	ሌላ	ADJ	ADJ	_	_	_	_	_
+2	ብልት	ብል፟ት	NOUN	NOUN	_	_	_	_	_
+3-5	ለእንግዳው	_	_	_	_	_	_	_	_
+3	ለ	ለ	ADP	ADP	_	4	case	_	_
+4	እንግዳ	እንግዳ	NOUN	NOUN	_	_	_	_	_
+5	ኡ	ኡ	DET	DET	_	4	det	_	_
+6-7	ወጣ	_	_	_	_	_	_	_	_
+6	ወጣ	ወጣ	VERB	VERB	Aspect=Perf	_	_	_	_
+7	ኧ	ኧ	PRON	SUBJ	Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+8	።	።	PUNCT	PUNCT	_	_	_	_	_
+
+# text = ጎመን ባወጣው ነብስ ።
+# sent_id = CACO_3-7w_B1_50s_s39
+1	ጎመን	ጎመን	NOUN	NOUN	_	_	_	_	_
+2-5	ባወጣው	_	_	_	_	_	_	_	_
+2	በ	በ	ADP	ADP	_	3	mark	_	_
+3	አወጣ	ወጣ	VERB	VERB	Aspect=Perf|Voice=Trans	_	_	_	_
+4	ኧ	ኧ	PRON	SUBJ	Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+5	ው	ው	PRON	OBJC	Gender=Masc|Number=Sing|Person=3	3	obj	_	_
+6	ነብስ	ነብስ	UNK	UNK	_	_	_	_	_
+7	።	።	PUNCT	PUNCT	_	_	_	_	_
+
+# text = ሁላችንም በውስጣችን ምን ዓይነት ትግል አለብን ?
+# sent_id = CACO_3-7w_B1_50s_s40
+1-3	ሁላችንም	_	_	_	_	_	_	_	_
+1	ሁሉ	ሁል፟	NOUN	NOUN	_	_	_	_	_
+2	ኣችን	ኣችን	PRON	POSM	Number=Plur|Person=1|Poss=Yes	1	nmod	_	_
+3	ም	ም	CCONJ	CCONJ	_	1	cc	_	_
+4-6	በውስጣችን	_	_	_	_	_	_	_	_
+4	በ	በ	ADP	ADP	_	5	case	_	_
+5	ውስጥ	ውስጥ	NOUN	NOUN	_	_	_	_	_
+6	ኣችን	ኣችን	PRON	POSM	Number=Plur|Person=1|Poss=Yes	5	nmod	_	_
+7	ምን	ምን	NOUN	NOUN	_	_	_	_	_
+8	ዓይነት	አይነት	NOUN	NOUN	_	_	_	_	_
+9	ትግል	ትግል	NOUN	NOUN	_	_	_	_	_
+10-13	አለብን	_	_	_	_	_	_	_	_
+10	አለ	አለ	VERB	VERB	Tense=Pres	_	_	_	_
+11	ኧ	ኧ	PRON	SUBJ	Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
+12	ብ	ብ	ADP	ADP	Case=Mal	10	case	_	_
+13	ን	ን	PRON	OBJC	Number=Plur|Person=1	10	expl	_	_
+14	?	?	PUNCT	PUNCT	_	_	_	_	_
+
+# text = ለፈጣን ለውጡ ምስጢሩ ምንድን ነው ?
+# sent_id = CACO_3-7w_B1_50s_s41
+1-2	ለፈጣን	_	_	_	_	_	_	_	_
+1	ለ	ለ	ADP	ADP	_	2	case	_	_
+2	ፈጣን	ፈጣ፟ን	ADJ	ADJ	_	_	_	_	_
+3-4	ለውጡ	_	_	_	_	_	_	_	_
+3	ለውጥ	ለውጥ	NOUN	NOUN	_	_	_	_	_
+4	ኡ	ኡ	DET	DET	_	3	det	_	_
+5-6	ምስጢሩ	_	_	_	_	_	_	_	_
+5	ምስጢር	ምስጢር	NOUN	NOUN	_	_	_	_	_
+6	ኡ	ኡ	DET	DET	_	5	det	_	_
+7	ምንድን	ምንድን	PRON	PRON	_	_	_	_	_
+8-9	ነው	_	_	_	_	_	_	_	_
+8	ነ	ነ	AUX	AUX	Tense=Pres	_	_	_	_
+9	ው	ው	PRON	SUBC	Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
+10	?	?	PUNCT	PUNCT	_	_	_	_	_
+
+# text = መድኃኒቱም እንዴት እንደሚዘጋጅ መጠኑ ተገልጿል ።
+# sent_id = CACO_3-7w_B1_50s_s42
+1-3	መድኃኒቱም	_	_	_	_	_	_	_	_
+1	መድኃኒት	መድሀኒት	NOUN	NOUN	_	_	_	_	_
+2	ኡ	ኡ	DET	DET	_	1	det	_	_
+3	ም	ም	CCONJ	CCONJ	_	1	cc	_	_
+4	እንዴት	እንዴት	ADV	ADV	_	_	_	_	_
+5-8	እንደሚዘጋጅ	_	_	_	_	_	_	_	_
+5	እንደ	እንደ	SCONJ	SCONJ	_	8	mark	_	_
+6	እም	እም	PART	IRLP	_	8	mark	_	_
+7	ይ	ይ	PRON	PRON	Person=3	8	nsubj	_	_
+8	ዘጋጅ	ተዘጋጀ	VERB	VERB	Aspect=Imp	_	_	_	_
+9-10	መጠኑ	_	_	_	_	_	_	_	_
+9	መጠን	መጠነ	VERB	VERB	Aspect=Perf	_	_	_	_
+10	ኡ	ኡ	PRON	SUBJ	Number=Plur|Person=3	9	nsubj	_	_
+11-13	ተገልጿል	_	_	_	_	_	_	_	_
+11	ተገልጽ	ገለጸ	VERB	VERB	Verbform=Conv|Voice=Pass	_	_	_	_
+12	ኦ	ኦ	PRON	SUBJ	Gender=Masc|Number=Sing|Person=3	11	nsubj	_	_
+13	ኣል	ኣል	AUX	AUX	_	11	aux	_	_
+14	።	።	PUNCT	PUNCT	_	_	_	_	_
+
+# text = በአጠቃላይ በዚህ አካባቢ በሞባይል መገልገል ይከብዳል ።
+# sent_id = CACO_3-7w_B1_50s_s43
+1-2	በአጠቃላይ	_	_	_	_	_	_	_	_
+1	በ	በ	ADP	ADP	_	2	case	_	_
+2	አጠቃላይ	አጠ፟ቃላይ	ADJ	ADJ	_	_	_	_	_
+3-4	በዚህ	_	_	_	_	_	_	_	_
+3	በ	በ	ADP	ADP	_	4	case	_	_
+4	ይህ	ይህ	NOUN	NOUN	_	_	_	_	_
+5	አካባቢ	አካ፟ባቢ	NOUN	NOUN	_	_	_	_	_
+6-7	በሞባይል	_	_	_	_	_	_	_	_
+6	በ	በ	ADP	ADP	_	7	case	_	_
+7	ሞባይል	ሞባይል	NOUN	NOUN	_	_	_	_	_
+8	መገልገል	ተገለገለ	NOUN	INF	_	_	_	_	_
+9-11	ይከብዳል	_	_	_	_	_	_	_	_
+9	ይ	ይ	PRON	PRON	Person=3	10	nsubj	_	_
+10	ከብድ	ከበደ	VERB	VERB	Aspect=Imp	_	_	_	_
+11	ኣል	ኣል	AUX	AUX	_	10	aux	_	_
+12	።	።	PUNCT	PUNCT	_	_	_	_	_
+
+# text = አንቀጽ ተበደረ ።
+# sent_id = CACO_3-7w_B1_50s_s44
+1	አንቀጽ	አንቀጽ	NOUN	NOUN	_	_	_	_	_
+2-3	ተበደረ	_	_	_	_	_	_	_	_
+2	ተበደር	ተበደረ	VERB	VERB	Aspect=Perf	_	_	_	_
+3	ኧ	ኧ	PRON	SUBJ	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+4	።	።	PUNCT	PUNCT	_	_	_	_	_
+
+# text = እነዚህ ድርጅቶች በዓለም ላይ ታዋቂ ናቸው ።
+# sent_id = CACO_3-7w_B1_50s_s45
+1	እነዚህ	ይህ	PRON	PRON	Number=Plur	_	_	_	_
+2	ድርጅቶች	ድርጅ፟ቶች	NOUN	NOUN	Number=Plur	_	_	_	_
+3-4	በዓለም	_	_	_	_	_	_	_	_
+3	በ	በ	ADP	ADP	_	4	case	_	_
+4	ዓለም	አለም	NOUN	NOUN	_	_	_	_	_
+5	ላይ	ላይ	ADP	ADP	_	_	_	_	_
+6	ታዋቂ	ታዋቂ	ADJ	ADJ	_	_	_	_	_
+7-8	ናቸው	_	_	_	_	_	_	_	_
+7	ነ	ነ	AUX	AUX	Tense=Pres	_	_	_	_
+8	ኣቸው	ኣቸው	PRON	SUBC	Number=Plur|Person=3	7	nsubj	_	_
+9	።	።	PUNCT	PUNCT	_	_	_	_	_
+
+# text = ሁላችነን የምታሳዝኝን አንቺ ነሽ ።
+# sent_id = CACO_3-7w_B1_50s_s46
+1	ሁላችነን	ሁላችነን	UNK	UNK	_	_	_	_	_
+2-7	የምታሳዝኝን	_	_	_	_	_	_	_	_
+2	የ	የ	PART	RLP	_	5	mark	_	_
+3	እም	እም	PART	IRLP	_	5	mark	_	_
+4	ት	ት	PRON	PRON	Person=2	5	nsubj	_	_
+5	አሳዝን	አዘነ	VERB	VERB	Aspect=Imp|Voice=Cau	_	_	_	_
+6	ኢ	ኢ	PRON	SUBJ	Gender=Fem|Number=Sing|Person=2	5	nsubj	_	_
+7	ን	ን	PRON	OBJC	Number=Plur|Person=1	5	obj	_	_
+8	አንቺ	አንቺ	PRON	PRON	_	_	_	_	_
+9-10	ነሽ	_	_	_	_	_	_	_	_
+9	ነ	ነ	AUX	AUX	Tense=Pres	_	_	_	_
+10	ሽ	ሽ	PRON	SUBC	Gender=Fem|Number=Sing|Person=2	9	nsubj	_	_
+11	።	።	PUNCT	PUNCT	_	_	_	_	_
+
+# text = ለራሴ የሰነዘርኩት ጥያቄ ነበር ።
+# sent_id = CACO_3-7w_B1_50s_s47
+1-3	ለራሴ	_	_	_	_	_	_	_	_
+1	ለ	ለ	ADP	ADP	_	2	case	_	_
+2	ራስ	ራስ	NOUN	NOUN	_	_	_	_	_
+3	ኤ	ኤ	PRON	POSM	Number=Sing|Person=1|Poss=Yes	2	nmod	_	_
+4-7	የሰነዘርኩት	_	_	_	_	_	_	_	_
+4	የ	የ	PART	RLP	_	5	mark	_	_
+5	ሰነዘር	ሰነዘረ	VERB	VERB	Aspect=Perf	_	_	_	_
+6	ሁ	ኩ	PRON	SUBJ	Number=Sing|Person=1	5	nsubj	_	_
+7	ት	ው	PRON	OBJC	Gender=Masc|Number=Sing|Person=3	5	obj	_	_
+8	ጥያቄ	ጥያ፟ቄ	NOUN	NOUN	_	_	_	_	_
+9	ነበር	ነበ፟ር	AUX	AUX	_	_	_	_	_
+10	።	።	PUNCT	PUNCT	_	_	_	_	_
+
+# text = ደንበኞች ንብረታቸውን ያገኛሉ ።
+# sent_id = CACO_3-7w_B1_50s_s48
+1	ደንበኞች	ደንበኛ፟ዎች	ADJ	ADJ	Number=Plur	_	_	_	_
+2-4	ንብረታቸውን	_	_	_	_	_	_	_	_
+2	ንብረት	ንብረት	NOUN	NOUN	_	_	_	_	_
+3	ኣቸው	ኣቸው	PRON	POSM	Number=Plur|Person=3|Poss=Yes	2	nmod	_	_
+4	ን	ን	PART	ACC	Case=Acc	2	case	_	_
+5-8	ያገኛሉ	_	_	_	_	_	_	_	_
+5	ይ	ይ	PRON	PRON	Person=3	6	nsubj	_	_
+6	አገኝ	አገኘ	VERB	VERB	Aspect=Imp	_	_	_	_
+7	ኣል	ኣል	AUX	AUX	_	6	aux	_	_
+8	ኡ	ኡ	PRON	SUBJC	Number=Plur|Person=3	6	nsubj	_	_
+9	።	።	PUNCT	PUNCT	_	_	_	_	_
+
+# text = ቫሃንም ይህን ለማድረግ መረጠ ።
+# sent_id = CACO_3-7w_B1_50s_s49
+1	ቫሃንም	ቫሃንም	UNK	UNK	_	_	_	_	_
+2-3	ይህን	_	_	_	_	_	_	_	_
+2	ይህ	ይህ	NOUN	NOUN	_	_	_	_	_
+3	ን	ን	PART	ACC	Case=Acc	2	case	_	_
+4-5	ለማድረግ	_	_	_	_	_	_	_	_
+4	ለ	ለ	ADP	ADP	_	5	case	_	_
+5	ማድረግ	አደረገ	NOUN	INF	_	_	_	_	_
+6-7	መረጠ	_	_	_	_	_	_	_	_
+6	መረጥ	መረጠ	VERB	VERB	Aspect=Perf	_	_	_	_
+7	ኧ	ኧ	PRON	SUBJ	Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+8	።	።	PUNCT	PUNCT	_	_	_	_	_
+
+# text = በዚህ ጊዜ ምን ምርጫ ታደርጋላችሁ ?
+# sent_id = CACO_3-7w_B1_50s_s50
+1-2	በዚህ	_	_	_	_	_	_	_	_
+1	በ	በ	ADP	ADP	_	2	case	_	_
+2	ይህ	ይህ	NOUN	NOUN	_	_	_	_	_
+3	ጊዜ	ጊዜ	NOUN	NOUN	_	_	_	_	_
+4	ምን	ምን	NOUN	NOUN	_	_	_	_	_
+5	ምርጫ	ምርጫ	NOUN	NOUN	_	_	_	_	_
+6-9	ታደርጋላችሁ	_	_	_	_	_	_	_	_
+6	ት	ት	PRON	PRON	Person=2	7	nsubj	_	_
+7	አደርግ	አደረገ	VERB	VERB	Aspect=Imp	_	_	_	_
+8	ኣል	ኣል	AUX	AUX	_	7	aux	_	_
+9	ኣችሁ	ኣችሁ	PRON	SUBJC	Number=Plur|Person=2	7	nsubj	_	_
+10	?	?	PUNCT	PUNCT	_	_	_	_	_
+
