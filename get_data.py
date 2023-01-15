@@ -1,7 +1,7 @@
 """
 This file is part of TAFS.
 
-    Copyleft 2022.
+    Copyleft 2022, 2023.
     Abnet Shimeles <abutihere@gmail.com> and Michael Gasser <gasser@indiana.edu>.
 
     TAFS is free software: you can redistribute it and/or modify
@@ -30,8 +30,8 @@ PUNCTUATION = "“‘”’–—:;/,<>?.!%$()[]{}|#@&*_+=\"፡።፣፤፥፦�
 NUMERAL_RE = re.compile('(\w*?)(\d+(?:[\d,]*)(?:\.\d+)?)(\w*?)')
 
 def get_batches(nbatches=10, nsentences=50, start=0, directory='', sort=False,
-                                 filter_sentences=True, min_length=3, max_length=7, max_punc=1, max_num=0,
-                                 readfile="CACO_3-7tok.txt", writefile='CACO_3-7tok', batch_start=0):
+                filter_sentences=True, min_length=3, max_length=7, max_punc=1, max_num=0,
+                readfile="CACO_3-7tok.txt", writefile='CACO_3-7tok', batch_start=0):
     '''
     Create nbatches of sentences with nsentences in each from the file at readfile in
     the CACO directory unless directory is specified, starting at sentence start,
@@ -87,6 +87,7 @@ def get_batches(nbatches=10, nsentences=50, start=0, directory='', sort=False,
         if writefile:
             for batchi, batch in enumerate(batches):
                 writefile0 = "{}_B{}.txt".format(writefile, batchi+batch_start)
+                print("** Writing batch to {}".format(writefile0))
                 with open(os.path.join(CACO_DIR, writefile0), 'w', encoding='utf8') as file:
                     for sentence in batch:
                         print(sentence, file=file)
